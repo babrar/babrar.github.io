@@ -9,20 +9,6 @@ $(document).ready(function () {
   $(".welcome").hide();
   $(".welcome").fadeIn(4000);
 
-  var hoverColors = [
-    "rgba(51, 170, 51, .15)",
-    "rgba(220, 20, 60, .1)",
-    "rgba(255, 255, 0, .3)",
-    "rgba(148, 0, 211, .15)"
-  ]
-
-  $("#links").children().hover(function() {
-    var color = hoverColors[Math.floor(Math.random() * hoverColors.length)];
-    $(this).css("background-color", color);
-  },function() {
-    $(this).css("background-color","rgba(51, 170, 51, 0)");
-  });
-
   // Add smooth scrolling to all links
   $("a").on('click', function (event) {
 

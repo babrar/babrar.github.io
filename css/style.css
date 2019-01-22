@@ -167,6 +167,12 @@ h2.subtitle{
     border: 1px solid #ddd;
 }
 
+.inline-icon a:hover {
+  color: #A9A9A9;
+}
+.inline-icon i:hover {
+  color: #A9A9A9;
+}
 #contact-icon > * {
   text-decoration: none;
   color: black;
