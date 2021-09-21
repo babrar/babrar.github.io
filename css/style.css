@@ -42,6 +42,10 @@ canvas{
   display:block;
   vertical-align:center;
 }
+
+.scaled {
+  transform: scale(1.25);
+}
 /* ---- particles.js container ---- */
 
 #particles-js{
