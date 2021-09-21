@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-  var copyText = "babrar@edu.uwaterloo.ca";
+  var copyText = "babrar@uwaterloo.ca";
   var clip = new Clipboard('.copy');
   clip.on("success", function () {
     setTimeout(function() { alert("Copied!      " + copyText); }, 1);
